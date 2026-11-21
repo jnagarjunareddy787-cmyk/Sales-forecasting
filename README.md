@@ -1,34 +1,21 @@
-Sales Forecasting
+# Sales Forecasting Using Machine Learning
 
-Project Overview
+A data-driven framework to predict future sales using machine learning,
+addressing the limitations of traditional time-series forecasting.
 
-This project predicts future sales using historical sales data and Machine Learning techniques. It helps businesses understand sales trends and make better decisions about inventory and planning.
+## Project Structure
+See folder layout in `docs/project_proposal.md`.
 
-Objectives
+## Setup
 
-- Analyze historical sales data.
-- Identify sales trends and patterns.
-- Predict future sales.
-- Support better business decisions.
+```bash
+# 1. Clone repo
+git clone <your-repo-url>
+cd sales-forecasting-ml
 
-Technologies Used
+# 2. Create virtual environment
+python -m venv .venv
+source .venv/bin/activate       # Windows: .venv\Scripts\activate
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
-
-Project Workflow
-
-1. Data collection
-2. Data preprocessing
-3. Exploratory Data Analysis
-4. Model training
-5. Sales prediction
-6. Visualization of results
-
-Project Type
-
-Machine Learning Project
-
+# 3. Install dependencies
+pip install -r requirements.txt

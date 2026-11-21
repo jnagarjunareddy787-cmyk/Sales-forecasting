@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (uncomment if you don't want to commit large data)
+# data/raw/*
+# data/processed/*
+# !data/**/.gitkeep
+
+# Models
+models/*.pkl
+models/*.joblib
+!models/.gitkeep
+
+# Reports
+reports/figures/*.png
+reports/metrics/*.csv
+reports/metrics/*.json
+!reports/**/.gitkeep
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
